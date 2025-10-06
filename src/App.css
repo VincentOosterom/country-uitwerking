@@ -1,0 +1,32 @@
+header h1{
+    text-align: center;
+    font-size: 4rem;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.countries-list{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.countries-list li {
+    list-style: none;
+}
+
+.countries-list img{
+    width: 40px;
+    height: 30px;
+}
+
+.country-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
