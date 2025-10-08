@@ -8,6 +8,7 @@ function App() {
 
     return (
         <div>
+            <Opdracht1/>
             <Opdracht2/>
         </div>
     )

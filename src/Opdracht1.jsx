@@ -1,6 +1,7 @@
 import './App.css';
 import axios from "axios";
 import {useState} from "react";
+import './Opdracht1.css'
 
 
 function Opdracht1() {
@@ -40,11 +41,10 @@ function Opdracht1() {
                                     <img
                                         src={country.flags.svg}
                                         alt={`Vlag van ${country.name.common}`}
-
                                     />
                                     <h3>{country.name.common}</h3>
                                 </div>
-                                <p>Has a population of {country.population.toLocaleString("nl-NL")}</p>
+                                <p>Has a population of {country.population}</p>
                             </li>
                         ))}
                 </ul>

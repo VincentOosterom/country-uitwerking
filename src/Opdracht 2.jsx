@@ -14,7 +14,7 @@ function Opdracht2() {
         return Math.round(population / 100000)
     }
 
-    async function SearchCountry(e) {
+    async function searchCountry(e) {
         e.preventDefault();
         if (!query) return
 
@@ -38,7 +38,7 @@ function Opdracht2() {
         <header className="app-header">
             <h1>Search Country Information</h1>
             <img src="src/assets/world_map.png" alt=""/>
-            <form onSubmit={SearchCountry} className="search-country-form">
+            <form onSubmit={searchCountry} className="search-country-form">
                 <input
                     placeholder="Welke land zoekt u? "
                     type="text"
